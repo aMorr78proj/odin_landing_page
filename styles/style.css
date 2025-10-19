@@ -35,9 +35,39 @@ a {
 }
 
 .hook-info {
+    background: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
+    padding: 20px 100px 40px 100px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-img-box {
+    background: #e5e7eb;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    padding: 70px;
+}
+
+button {
+    background: #3882f6;
+    color: #e5e7eb;
+    border: 0px solid #3882f6;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
 }
 
 h2 {
