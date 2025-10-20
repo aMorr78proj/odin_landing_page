@@ -40,7 +40,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 100px;
-    padding: 20px 12vw 40px 12vw;
+    padding: 50px 12vw 80px 12vw;
 }
 
 #hero {
@@ -57,7 +57,7 @@ a {
 .header-img-box {
     background: #e5e7eb;
     width: 600px;
-    height: auto;
+    height: 100px;
     text-align: center;
     padding: 70px;
 }
@@ -70,20 +70,15 @@ button {
     font-size: 18px;
     font-weight: bold;
     padding: 5px 15px 5px 15px;
+    margin-top: 15px;
 }
 
-.comparison-info h2 {
-    text-align: center;
-    color: #1f2937;
-    font-weight: 900;
-    font-size: 36px;
-}
-
-.img-placeholder {
-    border: 3px solid #3882f6;
-    border-radius: 5px;
-    width: 120px;
-    height: 120px;
+.info-boxes-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 12vw 50px 12vw;
 }
 
 .info-box {
@@ -96,12 +91,19 @@ button {
     align-items: center;
 }
 
-.info-boxes-div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 40px;
-    padding: 20px 12vw 20px 12vw;
+#info-header {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+.img-placeholder {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
 }
 
 .quote-info {
@@ -110,7 +112,7 @@ button {
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
-    padding: 20px 12vw 20px 12vw;
+    padding: 50px 12vw 50px 12vw;
 }
 
 .quote-info > .author {
